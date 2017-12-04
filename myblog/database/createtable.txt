@@ -1,0 +1,8 @@
+database--> username：root password：root  databasename:test
+CREATE TABLE blog(
+    id INT AUTO_INCREMENT COMMENT '博客id 自增长',
+    title TEXT COMMENT '博客标题',
+    content TEXT COMMENT '博客内容',
+    created DATETIME COMMENT '博客创建时间',
+    PRIMARY KEY (id)
+)
